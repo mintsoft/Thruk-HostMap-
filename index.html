@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src='code.js'></script>
+        <style>
+
+                .links line {
+                  stroke: #999;
+                  stroke-opacity: 0.6;
+                }
+
+                .nodes circle {
+                  stroke: #fff;
+                  stroke-width: 1.5px;
+                }
+                #detailview {
+                    position: fixed;
+                    top: 10px;
+                    left: 10px;
+                    border: 1px solid grey;
+                    border-radius: 2px;
+                    background: #ddd;
+                    min-height: 50px;
+                    font-size: 20px;
+                    padding: 5px;
+                    min-width: 300px;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                </style>
+    </head>
+    <body>
+        <svg width="4096" height="4096"></svg>
+        <div id='detailview'></div>
+    </body>
+</html>
