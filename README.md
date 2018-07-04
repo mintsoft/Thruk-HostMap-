@@ -12,6 +12,10 @@ Create a file with the host relationships and shove it next to `index.html`
 ```
 curl 'https://omd1/site1/thruk/cgi-bin/status.cgi?style=hostdetail&view_mode=json&columns=host_name,perf_data,parents,state,address,alias,check_command,peer_name' > data.json
 ```
+
+
 Shove into wwwroot
+
 ...
+
 View
